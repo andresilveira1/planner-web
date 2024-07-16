@@ -1,6 +1,7 @@
 import { X, AtSign, Plus } from 'lucide-react'
 import { FormEvent } from 'react'
-import { Button } from '../../components/Button'
+import { Button } from '../../../components/Button'
+import { Input } from '../../../components/Input'
 
 interface InviteGuestsModalProps {
   closeGuestsModal: () => void
@@ -58,12 +59,12 @@ export function InviteGuestsModal({
         >
           <AtSign className="size-5 text-zinc-400" />
 
-          <input
+          <Input
             type="email"
             name="email"
             placeholder="Digite o e-mail do convidado"
-            className="bg-transparent flex-1 outline-none text-zinc-400 text-lg"
           />
+
           <Button type="submit" variant="primary">
             Convidar <Plus />
           </Button>
