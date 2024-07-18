@@ -9,3 +9,13 @@
 input {
   color-scheme: dark;
 }
+
+.rdp {
+  --rdp-accent-color: #bef264;
+  --rdp-selected-color: #18181b;
+  --rdp-background-color: #bef264;
+}
+
+.rdp-button:hover {
+  color: #18181b;
+}
