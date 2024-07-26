@@ -4,8 +4,8 @@ import { DateRange, DayPicker } from 'react-day-picker'
 import 'react-day-picker/dist/style.css'
 import { format } from 'date-fns'
 
-import { Button } from '../../../components/Button'
-import { Input } from '../../../components/Input'
+import { Button } from '../../../components/button'
+import { Input } from '../../../components/input'
 
 interface DestinationAndDateStepProps {
   openGuestsInput: () => void

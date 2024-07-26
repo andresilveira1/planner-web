@@ -1,5 +1,6 @@
 import { Link2, Plus } from 'lucide-react'
-import { Button } from '../../../components/Button'
+
+import { Button } from '../../../components/button'
 
 export function ImportantLinks() {
   return (

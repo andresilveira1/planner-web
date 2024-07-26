@@ -1,10 +1,10 @@
 import { MapPin, Calendar, Settings2 } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-
-import { Button } from '../../../components/Button'
-import { api } from '../../../lib/axios'
 import { format } from 'date-fns'
+
+import { Button } from '../../../components/button'
+import { api } from '../../../lib/axios'
 
 interface TripProps {
   destination: string
